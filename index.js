@@ -16,6 +16,6 @@ function tailsNeverFails() {
   while (coinFlip()) {
     count ++;
   }
-  console.log('You got ' + count + ' tails in a row!');
-  return count;
+  return 'You got ' + count + ' tails in a row!';
+
 }
